@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dil Se ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff0f4;
+      color: #44202e;
+      text-align: center;
+    }
+    header {
+      background: #a83258;
+      color: white;
+      padding: 24px 12px;
+    }
+    main {
+      max-width: 600px;
+      margin: 35px auto;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 18px;
+      margin: 18px 0;
+      box-shadow: 0 4px 14px #0001;
+    }
+    textarea {
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 110px;
+      padding: 12px;
+      border: 1px solid #e2b5c5;
+      border-radius: 10px;
+    }
+    button {
+      background: #a83258;
+      color: white;
+      border: 0;
+      padding: 12px 20px;
+      border-radius: 22px;
+      margin-top: 12px;
+    }
+    footer { padding: 20px; color: #795563; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dil Se ❤️</h1>
+    <p>Yahan tumhari baat suni jaayegi.</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Tum akele nahi ho 💗</h2>
+      <p>Kabhi-kabhi dil ki baat keh dena hi pehla kadam hota hai.</p>
+    </div>
+    <div class="card">
+      <h2>Apni kahani likho ✍️</h2>
+      <p>Apne jazbaat likho. Abhi ye demo hai—kuch online save nahi hoga.</p>
+      <textarea id="story" placeholder="Dil mein kya hai?"></textarea>
+      <br>
+      <button onclick="document.getElementById('message').textContent='Tumhari baat yahin likhi hai. ❤️'">Dil se likho</button>
+      <p id="message"></p>
+    </div>
+  </main>
+  <footer>Dil Se ❤️ — Ek doosre ki izzat karein.</footer>
+</body>
+</html>
